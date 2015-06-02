@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="trab_marquim" Class="trab_marquimDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=WETTER-PC;Initial Catalog=trab_marquim;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="trab_marquimConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.PESSOA" Member="PESSOAs">
+    <Type Name="PESSOA">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="NOME" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="RUA" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="BAIRRO" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="CIDADE" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="ESTADO" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="DATA_ENTRADA" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="DATA_SAIDA" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="QUARTO" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

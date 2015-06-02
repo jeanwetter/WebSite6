@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="trab_marquim">
+  <DataContextMoniker Name="/trab_marquimDataContext" />
+  <nestedChildShapes>
+    <classShape Id="071485b3-b9dc-4c2a-a579-61ab12402f6f" absoluteBounds="1.375, 0.75, 2, 2.5401025390625">
+      <DataClassMoniker Name="/trab_marquimDataContext/PESSOA" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f8628189-2f05-4317-81b1-638238a16193" absoluteBounds="1.3900000000000001, 1.21, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
